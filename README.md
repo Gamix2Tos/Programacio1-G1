@@ -22,3 +22,5 @@ Tendremos una clase semanal de dos horas académicas en las que desarrollaremos 
 - Las consultas son exclusivamente por correo electrónico y los días de presencialidad que acordemos.
 
 - Por favor, adoptemos este estandard: añadir el hashtag **#teleprgm1** en el asunto de los correos que usaremos en esta cátedra.
+
+Cisco Networking Academy (curso en proceso) python
