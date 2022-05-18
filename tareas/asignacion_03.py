@@ -72,26 +72,49 @@ debe retornar un nuevo string que consista en el string original y el número
 correcto de caracteres necesarios para que el string se salga centrado. 
 No agregue caracteres al final del string. (10pts)"""
 
-"""frase = 'programcion 1 ucla'
-print(len(frase))
-def centrar(s,n):
-    """
+Strings = str(input("Ingresé caracteres: "))
+Longitud = len(Strings)
 
-"""texto= 'programacion'
-print(format(texto, '^120'))
-print(format(texto, '=^120'))
-print(format(texto.rjust(58)))"""
 
-def ContarCaracteres(vString):
-    conteo = 0
 
-    while vString[conteo:]:
-        conteo +=1
-    print("{:^120}".format(vString),'\n',"Cantidad de Caracteres del texto:",conteo)
-    print("Cantidad de Caracteres necesarios para que salga centrado:", conteo^120)
+def getConct(String, Long):
+    return String, " ", str(Long)
 
-    return conteo
+retFun = getConct(Strings, Longitud)
 
-ContarCaracteres(vString = input("Introduce texto :"))
+print(retFun)
+
+a=5
+b=10
+c=15
+d=20
+
+while Longitud <= a:
+    print(format(Strings,'>16'))
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+while Longitud <= b :
+    print(format(Strings,'>20'))
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+
+while Longitud <= c:
+    print(format(Strings,'>24'))
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+
+while Longitud <= d:
+    print(format(Strings,'>28'))
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+#agregar de hacer falta letra+while de hacer falta
 
 #estaba con un amigo tratando de hacer este pero no lo logramos
