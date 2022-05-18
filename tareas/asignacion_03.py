@@ -17,7 +17,14 @@ correcto de caracteres necesarios para que el string se salga centrado.
 No agregue caracteres al final del string. (10pts)
 
 Fecha de Entrega: Lunes 16/05 """
+ejer1='ejercicio numero 1'
+ejer2='ejercicio numero 2'
+ejer3='ejercicio numero 3'
+ejer4='ejercicio numero 4'
 
+#####################################################################################
+print(format(ejer1, '#^50'))
+print()
 # 1
 
 from math import pi
@@ -28,9 +35,12 @@ def area_circulo(r):
 r = area_circulo (float(input("coloque radio a usar:")))
 print("el area del circulo es:", r)
 
-
-
+#######################################################################################
+print()
+print(format(ejer2, '#^50'))
+print()
 # 2
+
 
 def valor_maximo(valores):
     mayor = valores[0]
@@ -47,9 +57,11 @@ c = float(input("indique un numero:")),
 
 numeros = a, b, c,
 print("el numero mayor es:", (valor_maximo(numeros)))
-
-
-# 3 Dado una lista de enteros, defina una función en python que devuelva la suma de solo los valores impares de dicha lista. (7pts)
+#########################################################################################
+print()
+print(format(ejer3, '#^50'))
+print()
+# 3
 
 def	Impar_detector(numeros):
 	impares = []
@@ -64,13 +76,13 @@ lista_numeros = list(range(1,21))
 print("mi lista de numeros",lista_numeros)
 filtro = Impar_detector(lista_numeros)
 print("Numeros impares de la lista anterior",filtro)
+##########################################################################################
+print()
+print(format(ejer4, '#^50'))
+print()
+# 4
 
-"""
-4 Desarrolle una función en python que acepte una variable string como primer
-parámetro y la cantidad de caracteres de como segundo parámetro. La función
-debe retornar un nuevo string que consista en el string original y el número
-correcto de caracteres necesarios para que el string se salga centrado. 
-No agregue caracteres al final del string. (10pts)"""
+
 
 Strings = str(input("Ingresé caracteres: "))
 Longitud = len(Strings)
@@ -82,7 +94,7 @@ def getConct(String, Long):
 
 retFun = getConct(Strings, Longitud)
 
-print(retFun)
+#print(retFun)
 
 a=5
 b=10
@@ -116,5 +128,3 @@ while Longitud <= d:
     c = 0
     d = 0
 #agregar de hacer falta letra+while de hacer falta
-
-#estaba con un amigo tratando de hacer este pero no lo logramos
